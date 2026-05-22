@@ -1,0 +1,16 @@
+{
+  "project_type": "LaTeX textbook (greenfield content generation)",
+  "language": "LaTeX with Indonesian (Bahasa Indonesia) content",
+  "build_system": "LaTeX (pdflatex or xelatex)",
+  "test_framework": "N/A - content generation project",
+  "build_command": "N/A - LaTeX compilation not required in sandbox",
+  "test_command": "N/A",
+  "verification_instructions": "Verify the LaTeX file is syntactically valid, contains all required chapters and sections, and has substantial scientific content in Indonesian.",
+  "snapshot_or_generated_files": null,
+  "setup_instructions": "No setup required - this is a content generation task producing a single .tex file",
+  "environment_constraints": "Large file generation - the textbook will be substantial. May need to be generated in parts due to output limits.",
+  "contribution_requirements": "Output file: /projects/sandbox/book-gen/buku_kimia_polimer_organik.tex",
+  "key_patterns": "Standard LaTeX book class with chapters, sections, subsections. Indonesian language throughout. Scientific writing style with chemical formulas, equations, and academic terminology.",
+  "relevant_files": ["/projects/sandbox/book-gen/buku_kimia_polimer_organik.tex"],
+  "directory_structure": "Simple single-file output in the repository root"
+}

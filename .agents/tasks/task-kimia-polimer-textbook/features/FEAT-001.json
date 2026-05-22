@@ -1,0 +1,28 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Create the LaTeX textbook file with preamble, front matter (Prakata, Capaian Pembelajaran, Peta Konsep, Daftar Gambar, Daftar Tabel), and Chapter 1 (Pendahuluan) fully developed with comprehensive scientific content in Indonesian.",
+  "status": "completed",
+  "steps": [
+    "Create /projects/sandbox/book-gen/buku_kimia_polimer_organik.tex with LaTeX preamble using book class, necessary packages (amsmath, amssymb, chemfig or mhchem for chemical formulas, graphicx, hyperref, babel with indonesian, geometry, etc.)",
+    "Write the Front Matter section: Prakata (preface explaining the book's purpose and target audience), Capaian Pembelajaran Buku (learning outcomes organized by chapter), Peta Konsep (concept map description in text form), placeholders for Daftar Gambar and Daftar Tabel (using listoffigures/listoftables)",
+    "Write Chapter 1 - Pendahuluan with these fully developed sections: 1.1 Pengertian Polimer (definition, monomers, degree of polymerization), 1.2 Sejarah Singkat Polimer (history from natural rubber to modern polymers), 1.3 Klasifikasi Polimer (by origin, structure, polymerization mechanism, thermal behavior), 1.4 Peran Polimer dalam Kehidupan Modern (applications in packaging, textiles, medicine, electronics, construction), 1.5 Isu Lingkungan Polimer (plastic pollution, microplastics, biodegradation, recycling strategies), 1.6 Rangkuman (chapter summary), 1.7 Latihan Soal (10 exercise questions), 1.8 Bahan Diskusi (3-4 discussion topics)",
+    "Each section must contain multiple paragraphs with scientific depth appropriate for university-level chemistry students. Include chemical structures/formulas where relevant using LaTeX chemistry notation."
+  ],
+  "acceptance_criteria": [
+    "File exists at /projects/sandbox/book-gen/buku_kimia_polimer_organik.tex",
+    "LaTeX preamble includes all necessary packages for a chemistry textbook",
+    "Front matter sections are fully written with substantive content",
+    "Chapter 1 contains at least 5 major sections, each with multiple paragraphs of scientific content",
+    "All content is in Indonesian (Bahasa Indonesia)",
+    "Chemical formulas and terminology are accurately represented",
+    "Exercise questions and discussion materials are fully written out"
+  ],
+  "verification": [
+    "Read the file and confirm it starts with valid LaTeX preamble and document structure",
+    "Confirm Chapter 1 sections have substantial paragraph content (not just headings)",
+    "Confirm Indonesian language is used throughout"
+  ],
+  "blocked_reason": null,
+  "findings": "File created at 355 lines with all required sections. 10 uses of \\ce{} for chemical formulas, 3 equations. File ends with comment marker for BAB 2 insertion (no \\end{document}). All content in Indonesian. LaTeX compilation not verified since no pdflatex available in sandbox but structure is syntactically valid."
+}

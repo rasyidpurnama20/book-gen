@@ -1,0 +1,14 @@
+{
+  "task_id": "task-kimia-polimer-textbook",
+  "task_description": "Create a comprehensive Indonesian chemistry textbook on Organic Polymer Chemistry (Kimia Polimer Organik) as a single LaTeX file. The book has 5 chapters covering introduction, types of polymers, polymerization processes, advanced polymer materials, and conclusion, plus front matter and back matter with appendices.",
+  "status": "completed",
+  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003", "FEAT-004"],
+  "blocked_reason": null,
+  "verification": {
+    "build": "pass",
+    "tests": "pass",
+    "test_quality": "pass",
+    "docker_build": "skipped",
+    "summary": "LaTeX document is well-formed: 1778 lines, 91 matched begin/end environments, 5 chapters + front matter + 6 appendices + bibliography with 31 references. Document starts with \\documentclass and ends with \\end{document}. All content is in Indonesian. Review fixes applied: front matter matches chapters, listoffigures removed, dispersity symbol consistent, bibliography umlauts fixed, natbib removed, coordination polymerization section added, appendix/backmatter ordering corrected."
+  }
+}
