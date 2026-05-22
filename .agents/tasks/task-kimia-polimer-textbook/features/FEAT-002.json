@@ -1,0 +1,31 @@
+{
+  "id": "FEAT-002",
+  "type": "feat",
+  "description": "Add Chapter 2 (Jenis-Jenis Polimer Organik) to the textbook covering natural polymers (cellulose, starch, chitin, chitosan) and synthetic polymers (plastics, synthetic rubber, Kevlar, Nomex, Nylon, Dacron) with comprehensive scientific content.",
+  "status": "in_progress",
+  "steps": [
+    "Append Chapter 2 to /projects/sandbox/book-gen/buku_kimia_polimer_organik.tex after Chapter 1, before any end-of-document markers",
+    "Write Section 2.1 Polimer Alam (Natural Polymers): detailed coverage of cellulose (structure, sources, properties, applications in paper/textiles), starch/pati (amylose vs amylopectin, gelatinization, industrial uses), chitin (structure, sources from crustaceans/fungi, properties), chitosan (deacetylation of chitin, biomedical applications, water treatment)",
+    "Write Section 2.2 Polimer Sintetik (Synthetic Polymers): detailed coverage of plastics (PE, PP, PVC, PS, PET - structures, properties, applications), synthetic rubber (SBR, NBR, neoprene - vulcanization, properties), aramid fibers Kevlar and Nomex (para vs meta orientation, hydrogen bonding, thermal/mechanical properties), polyamides Nylon (nylon-6, nylon-6,6 synthesis and properties), polyesters Dacron/PET (condensation synthesis, fiber properties)",
+    "Write Section 2.3 Perbandingan Polimer Alam dan Sintetik (comparison table and discussion)",
+    "Write Section 2.4 Rangkuman (chapter summary)",
+    "Write Section 2.5 Latihan Soal (10 exercise questions covering both natural and synthetic polymers)",
+    "Write Section 2.6 Bahan Diskusi (3-4 discussion topics on polymer selection and sustainability)",
+    "Include chemical structures and reaction schemes where appropriate using mhchem or chemfig notation"
+  ],
+  "acceptance_criteria": [
+    "Chapter 2 is present in the LaTeX file with all specified sections",
+    "Natural polymers section covers cellulose, starch, chitin, and chitosan with chemical detail",
+    "Synthetic polymers section covers all specified materials with structures and properties",
+    "Chemical formulas and reaction mechanisms are included",
+    "Content depth is appropriate for university-level chemistry",
+    "Exercise questions and discussion materials are fully developed",
+    "All content is in Indonesian"
+  ],
+  "verification": [
+    "Read the file and confirm Chapter 2 exists with substantial content in all sections",
+    "Confirm chemical structures/formulas are present for the key polymers discussed"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}
