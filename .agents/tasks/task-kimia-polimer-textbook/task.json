@@ -1,0 +1,7 @@
+{
+  "task_id": "task-kimia-polimer-textbook",
+  "task_description": "Create a comprehensive Indonesian chemistry textbook on Organic Polymer Chemistry (Kimia Polimer Organik) as a single LaTeX file. The book has 5 chapters covering introduction, types of polymers, polymerization processes, advanced polymer materials, and conclusion, plus front matter and back matter with appendices.",
+  "status": "in_progress",
+  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003", "FEAT-004"],
+  "blocked_reason": null
+}
